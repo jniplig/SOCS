@@ -1,0 +1,7 @@
+# Cache directories
+*_cache/
+socs-env/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
