@@ -94,7 +94,7 @@ fetcher = SportsDataFetcher(
 )
 
 # Fetch data for date range
-xml_data = fetcher.fetch_date_range("26 Sep 2024", "12 Dec 2024")
+xml_data = fetcher.fetch_date_range("start date", "end date")
 
 # Consolidate into single organized file
 output_file = fetcher.consolidate_xml(xml_data)
