@@ -164,7 +164,7 @@ The `SportsDataFetcher` class supports extensive customization:
 
 ```python
 fetcher = SportsDataFetcher(
-    school_id="28488",              # School identifier
+    school_id="",              # School identifier
     api_key="your-api-key",         # API authentication key
     cache_dir="sports_cache",       # Cache storage directory
     max_workers=5,                  # Parallel processing threads (1-10)
